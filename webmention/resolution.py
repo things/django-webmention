@@ -1,7 +1,7 @@
 import requests
 
 from urllib.parse import urlparse
-from django.core.urlresolvers import resolve, Resolver404
+from django.urls import resolve, Resolver404
 
 
 def url_resolves(url):
